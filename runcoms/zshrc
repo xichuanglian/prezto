@@ -11,3 +11,20 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+alias vi='vim'
+alias ll='ls -lh'
+alias la='ls -A'
+
+setopt AUTO_CD
+setopt AUTO_PUSHD
+setopt PUSHD_TO_HOME
+
+setopt GLOB_COMPLETE
+setopt EXTENDED_GLOB
+setopt NO_CASE_GLOB
+
+setopt RM_STAR_WAIT
+
+export EDITOR='/usr/local/bin/vim'
+export VISUAL='/usr/local/bin/vim'
