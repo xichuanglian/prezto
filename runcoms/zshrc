@@ -28,3 +28,8 @@ setopt RM_STAR_WAIT
 
 export EDITOR='/usr/local/bin/vim'
 export VISUAL='/usr/local/bin/vim'
+
+export GOPATH='/Users/dawei/Projects/GO'
+export PATH=$GOPATH/bin:$PATH
+
+export PATH=/Users/dawei/Local/bin:$PATH
